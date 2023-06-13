@@ -42,7 +42,6 @@
       margin-bottom: 20px;
       border: 1px solid #ccc;
       padding: 20px;
-      text-align: left;
       display: flex;
       align-items: center;
     }
@@ -53,12 +52,29 @@
       height: auto;
     }
     
+    .webinar-content {
+      text-align: left;
+    }
+    
     .webinar h3 {
       margin: 0;
     }
     
     .webinar p {
       margin: 10px 0;
+    }
+    
+    .btn-register {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    
+    .btn-register:hover {
+      background-color: #555;
     }
   </style>
 </head>
@@ -76,16 +92,15 @@
   <section>
     <div class="webinar">
       <img src="https://j.top4top.io/p_2720j12jc1.jpg" alt="Webinar 1">
-      <div>
+      <div class="webinar-content">
         <h3>Webbinar #6: Debian Server | Dasar Dasar Command Debian</h3>
         <p>Date: 17 Juni 2023</p>
         <p>Time: 20:00 Malam</p>
         <p>Speaker: Muhammad Reyhan</p>
         <p>Description: Mari Ramaikan Webbinar Msec Ke #6 Yang Membahas Tentang Debian Server Basic Command.</p>
-        <a href="https://chat.whatsapp.com/J9ScI1hgREJ2bpmrfhfpBB">Ikut Di Sini</a>
+        <a href="https://chat.whatsapp.com/J9ScI1hgREJ2bpmrfhfpBB" class="btn-register">Join Now</a>
       </div>
     </div>
-</p>
       </div>
     </div>
   </section>
