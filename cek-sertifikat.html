@@ -112,6 +112,11 @@
                 };
 
                 try {
+                    $.ajaxSetup({
+                      beforeSend: function(xhr) {
+                        xhr.setRequestHeader('Access-Control-Allow-Origin', 'https://msecteam.github.io');
+                      }
+                    });
                     const response = await $.ajax({
                         url: 'https://msec-api.vercel.app/api/gateway',
                         type: 'PUT',
