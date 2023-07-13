@@ -14,7 +14,9 @@
       background-color: #333;
       color: #fff;
       padding: 20px;
-      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     
     h1 {
@@ -22,14 +24,14 @@
     }
     
     nav {
-      background-color: #f2f2f2;
+      background-color: #333; /* Perubahan: Warna latar belakang nav */
       padding: 10px;
-      text-align: center;
+      text-align: right;
     }
     
     nav a {
       text-decoration: none;
-      color: #333;
+      color: #fff; /* Perubahan: Warna teks nav */
       padding: 10px;
       margin: 0 5px;
     }
@@ -43,14 +45,13 @@
 <body>
   <header>
     <h1>MsecTeam Website</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="webbinar.html">Webbinar</a>
+      <a href="course.html">Course</a>
+      <a href="https://msec-certificate.vercel.app/cek.html">Cek Sertifikat</a>
+    </nav>
   </header>
-  
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="webbinar.html">Webbinar</a>
-    <a href="course.html">Course</a>
-    <a href="https://msec-certificate.vercel.app/cek.html">Cek Sertifikat</a>
-  </nav>
   
   <section>
     <h2>Selamat datang di halaman beranda!</h2>
