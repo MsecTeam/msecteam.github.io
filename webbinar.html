@@ -14,7 +14,9 @@
       background-color: #333;
       color: #fff;
       padding: 20px;
-      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
     
     h1 {
@@ -22,14 +24,14 @@
     }
     
     nav {
-      background-color: #f2f2f2;
+      background-color: #333;
       padding: 10px;
-      text-align: center;
+      text-align: right;
     }
     
     nav a {
       text-decoration: none;
-      color: #333;
+      color: #fff;
       padding: 10px;
       margin: 0 5px;
     }
@@ -82,14 +84,13 @@
 <body>
   <header>
     <h1>MsecTeam Webbinar</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="webbinar.html">Webbinar</a>
+      <a href="course.html">Course</a>
+      <a href="https://msec-certificate.vercel.app/cek.html">Cek Sertifikat</a>
+    </nav>
   </header>
-  
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="webbinar.html">Webbinar</a>
-    <a href="course.html">Course</a>
-    <a href="https://msec-certificate.vercel.app/cek.html">Cek Sertifikat</a>
-  </nav>
   
   <section>
     <div class="webinar">
@@ -101,8 +102,6 @@
         <p>Speaker: Muhammad Reyhan</p>
         <p>Description: Mari Ramaikan Webbinar Msec Ke #6 Yang Membahas Tentang Debian Server Basic Command Dan Installasi.</p>
         <a href="https://youtu.be/J8hP1P3oQ_k" class="btn-register">Watch Now</a>
-      </div>
-    </div>
       </div>
     </div>
   </section>
