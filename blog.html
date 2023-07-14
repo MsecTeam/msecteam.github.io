@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="msec.png" type="image/png">
+  <title>MsecTeam Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: right;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px;
+      margin: 0 5px;
+    }
+    
+    #search-box {
+      margin-top: 20px;
+    }
+    
+    #search-input {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    #search-results {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+    
+    #search-results li {
+      margin-bottom: 5px;
+    }
+    
+    blockquote {
+      margin: 20px;
+      padding: 20px;
+      border-left: 3px solid #333;
+      background-color: #f9f9f9;
+    }
+    
+    blockquote h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+    
+    blockquote p {
+      margin: 10px 0;
+    }
+    
+    .date {
+      font-style: italic;
+    }
+    
+    .btn-register {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MsecTeam Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="webbinar.html">Webbinar</a>
+      <a href="blog.html">Blog</a>
+      <a href="https://msec-certificate.vercel.app/cek.html">Cek Sertifikat</a>
+    </nav>
+  </header>
+  
+  <section>
+    <div id="search-box">
+      <input type="text" id="search-input" placeholder="Cari artikel...">
+      <ul id="search-results"></ul>
+    </div>
+
+    <blockquote>
+      <h2>1. Membahas CVE-2022-29455 Untuk Kerentanan Xss</h2>
+      <article id="article1">
+      <p>Tanggal: <span class="date">14 Juli 2023</span></p>
+      <a href="https://www.msec.my.id/blog/apa-itu-cve-2022-29455/artikel1.html" class="btn-register">Baca Artikel
+      </a>
+    </blockquote>
+  </section>
+  <script src="search.js"></script>
+</body>
+</html>
+
